@@ -32,8 +32,10 @@ A Web Crypto API exige contexto seguro: use `localhost` ou HTTPS.
 
 ### Publicar
 
+- **GitHub Pages (automático)**: o repositório já inclui `.github/workflows/deploy.yml`. Em *Settings → Pages → Build and deployment → Source*, escolha **GitHub Actions**. A cada push na `main` o projeto é testado, compilado e publicado.
 - **Vercel / Netlify**: importe o repositório (build: `npm run build`, saída: `dist`).
-- **GitHub Pages**: `npx vite build --base=/NOME-DO-REPOSITORIO/` e publique a pasta `dist`.
+
+O build usa caminhos relativos, então funciona na raiz do domínio e em subpastas como `usuario.github.io/repositorio/`. Não publique a pasta do código-fonte: o que vai ao ar é o conteúdo de `dist`.
 
 ## Como usar
 
@@ -76,6 +78,7 @@ Não é compatível com arquivos `.aegis`.
 
 ```
 cofre-forte/
+├── .github/workflows/ # deploy automático no GitHub Pages
 ├── index.html
 ├── public/            # logo e favicon
 ├── src/
