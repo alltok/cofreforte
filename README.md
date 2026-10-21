@@ -6,7 +6,7 @@
 
 Criptografe e descriptografe arquivos e pastas **direto no navegador**. Nada é enviado a servidor algum: senha, arquivos e chaves existem apenas na memória da aba.
 
-Interface construída sobre os tokens e padrões do [IBM Carbon Design System](https://github.com/carbon-design-system/carbon) (temas White e Gray 100). O projeto é inspirado no [AegisCrypt Web](https://github.com/Bangkahdev/AegisCrypt-Web), mas é uma implementação independente, com formato de arquivo próprio.
+Interface construída sobre os tokens e padrões do [IBM Carbon Design System](https://github.com/carbon-design-system/carbon) (temas White e Gray 100).
 
 ## Funcionalidades
 
