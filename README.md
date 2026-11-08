@@ -1,7 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cofre-forte_banner_github_escuro.png">
-  <img alt="Cofre Forte" src="assets/cofre-forte_banner_github_claro.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cofre-forte_banner_github_letras_escuro.png?v=2">
+  <img alt="Cofre Forte — Criptografia local de arquivos" src="assets/cofre-forte_banner_github_letras_claro.png?v=2">
 </picture>
+
 # Cofre Forte
 
 Criptografe e descriptografe arquivos e pastas **direto no navegador**. Nada é enviado a servidor algum: senha, arquivos e chaves existem apenas na memória da aba.
