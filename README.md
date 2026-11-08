@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="public/logo.webp" alt="Cofre Forte — Dados seguros. Negócios mais fortes." width="420">
-</p>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cofre-forte_banner_github_escuro.png">
   <img alt="Cofre Forte" src="assets/cofre-forte_banner_github_claro.png">
